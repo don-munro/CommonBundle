@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Homepage | CA Technologies Developer Network</title>
+    <link rel="stylesheet" type="text/css" href="../common/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../common/css/utill.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+    <body>
+        <!-- Don't change the below class name. As same is using for fetching the navigation list.-->
+        <div class="navigation">
+            <ul></ul>
+        </div>
+        <div class="center head">
+            <!-- Don't change the below class name. As same is using for fetching the logo from themes.-->
+            <img class="generic-logo-size" />
+            <h1 id="provider-name"></h1>
+        </div>
+        <div>
+            <div class="data">
+                <h2>List of APIs</h2>
+                <p>The Add API Wizard provides an easy way to publish your existing APIs on the Portal. Before you publish any APIs, you need to create a EULA that you will associate with the APIs. Also, please ensure that your API backend is CORS enabled before you publish any APIs.</p>
+                <a href="../CustomPages/ApiList/index.html"> View List of APIs</a>
+            </div>
+            <div class="data">
+                <h2>Publish APIs</h2>
+                <p>The Add API Wizard provides an easy way to publish your existing APIs on the Portal. Before you publish any APIs, you need to create a EULA that you will associate with the APIs. Also, please ensure that your API backend is CORS enabled before you publish any APIs.</p>
+                <a href="https://docops.ca.com/ca-api-developer-portal-enhanced-experience/4-2/en/publishers/manage-apis" target="_blank">View Documentation</a>
+            </div>
+            <div class="data">
+                <h2>Get An API Key</h2>
+                <p>To get an API key, add an application to the Portal. The Portal assigns each registered application a unique API key. Applications need an API key to access APIs. You also need an API key to test APIs in the API Explorer.</p>
+                <a href="https://docops.ca.com/ca-api-developer-portal-enhanced-experience/4-2/en/publishers/manage-applications" target="_blank">View Documentation</a>
+            </div>
+            <div class="data">
+                <h2>Test An API</h2>
+                <p>The API Explorer lets you interact with APIs that have swagger or wadl files. You also need an application's API key to interact with APIs.</p>
+                <a href="https://docops.ca.com/ca-api-developer-portal-enhanced-experience/4-2/en/publishers/test-and-explore-apis" target="_blank">View Documentation</a>
+            </div>
+            <div class="data">
+                <h2>Generate Reports</h2>
+                <p>To monitor the usage and latency of your APIs, use the Portal's Real-Time Analytics. Quickly visualize traffic trends for APIs and applications. Track quota usage for organizations. Developers have access only to information specific to their organization.</p>
+                <a href="https://docops.ca.com/ca-api-developer-portal-enhanced-experience/4-2/en/publishers/analytics-dashboard" target="_blank">View Documentation</a>
+            </div>
+        </div>
+        <iframe width="800" height="400" style="margin-left: 363px" src="https://www.youtube.com/embed/aSoXuD5_718?ecver=2">
+        </iframe>
+        <div class="center">
+            <div class="banner-matter">
+                <h3>Click on the below links to know more</h3>
+            </div>
+            <div class="btn-group">
+                <button id="login" onclick="window.location.href='/admin/loginRedirect'" class="btn btn-primary">Login</button>
+                <button id="register" onclick="window.location.href='/admin/app/registration'" class="btn" style="display: none;">Sign Up</button>
+            </div>
+        </div>
+        <script src="../common/js/jquery-3.3.1.min.js"></script>
+        <script src="../common/js/utill.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
